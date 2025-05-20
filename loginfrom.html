@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <style>
+        .box{
+            width: 40%;
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: large;
+            color: rgb(242, 245, 248);
+        }
+        .box input{
+            width: 250px;
+            height: 20px;
+            border: 2px black solid;
+            border-radius: 20px;
+
+            
+        }
+        .box input::placeholder{
+            font-size: xx-small ;
+            color: black;
+            font-style: italic;
+        }
+        .box td{
+            padding-bottom: 10px;
+            
+        }
+        body{
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box button{
+            border: 3px blue solid;
+            border-radius: 30px;
+            font-size: large;
+            background-color: rgb(38, 38, 212);
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class ="box">
+        <h1>Login form</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>  <label for="s"><b>Name</b></label></td>
+                    <td><input type= "Name" id="s" placeholder="Enter Name"></td>
+                    
+                </tr>
+                <tr>
+                    <td>  <label for="r"><b>Number</b></label></td>
+                    <td><input type="Number" id="r" placeholder="Enter Number"></td>
+                    
+                </tr>
+                <tr>
+                    <td>  <label for="v"><b>Email</b></label></td>
+                    <td><input type="Email" id="v" placeholder="Enter Email"></td>
+                    
+                </tr>
+            </table>
+        </form>
+       <button>Submit</button>
+    </div>
+
+</body>
+</html>
